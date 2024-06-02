@@ -1,0 +1,54 @@
+
+.logout-maindiv{
+    background-color: rgba(128, 128, 128, 0.453);
+    backdrop-filter: blur(5px);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logout-modal{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    width: 25%;
+    padding: .5rem .5rem;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: 0.5s;
+}
+.logout-modal:hover{
+    transform: translatey(-3px);
+    box-shadow: 5px 5px 10px black;
+}
+.logout-button-div{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.401);
+}
+.logout-ok-button{
+    padding: 5px 40px;
+    border: none;
+    background-color: transparent;
+    color:rgb(0,136,255);
+    font-size: 16px;
+}
+.logout-ok-button:hover{
+    cursor: pointer;
+}
+.logout-cancel-button{
+    padding: 5px 30px;
+    border: none;
+    background-color: transparent;
+    color:rgb(0,136,255);
+    font-size: 16px;
+}
+.logout-cancel-button:hover{
+    cursor: pointer;
+}

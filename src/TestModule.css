@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;
+font-family: Arial, Helvetica, sans-serif;}
+
+
+
+.fa-angle-down{
+    margin-left: 11rem;
+}
+span{
+    color: rgb(5,41,81);
+    
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-left: 10px;
+}
+.span{
+    margin-left: 7rem;
+    
+}
+.fa-database{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.parent{
+    height: 100vh;
+}

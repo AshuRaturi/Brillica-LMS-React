@@ -1,0 +1,9 @@
+.Modal-delete-button{
+    position: absolute;
+    top: -10rem;
+    right: 0;
+    
+}
+.Modal-main-div{
+    position: relative;
+}

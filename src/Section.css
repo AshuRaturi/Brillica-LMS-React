@@ -1,0 +1,10 @@
+.sectionDiv{
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    /* box-shadow: -15px -5px  1px rgba(128, 128, 128, 0.4); */
+    
+}
+

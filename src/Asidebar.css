@@ -1,0 +1,30 @@
+.asideDiv{
+    height: auto;
+    width: 15%;
+    box-shadow: 5px 0.2px  1px rgba(128, 128, 128, 0.4);
+    margin-left: 15px;
+    border-top: 1px solid rgba(128, 128, 128, 0.313);
+}
+.div{
+    width: 98%;
+    height: 3rem;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    /* margin-left: 15px; */
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+.div:hover{
+    background-color: rgb(1, 41,81);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px grey;
+    transition: 0.4s;
+}
+.lnk{
+    text-decoration: none;
+    color: black;
+    
+}

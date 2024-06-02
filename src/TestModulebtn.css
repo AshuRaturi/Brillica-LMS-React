@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;}
+
+.Testmodule-btn{
+    width: 160px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #ffff;
+    color: rgb(80, 79, 79);
+    border: none;
+    box-shadow: 5px 5px 8px grey;
+    border: 1px solid grey;
+    font-size: 15px;
+    background-color: rgb(237,241,252);
+}
+.Testmodule-btn:hover{
+    background-color: rgb(5,41,81);
+    color: #ffff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    
+}

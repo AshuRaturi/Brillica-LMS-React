@@ -1,0 +1,87 @@
+.parent-div{
+  
+    
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+.encounter-heading{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgba(128, 128, 128, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.encounter-content-maindiv{
+    background-color:rgba(128, 128, 128, 0.44);
+    /* width: 100%; */
+    padding: 15px;
+    
+}
+
+.encounter-content{
+    width: 70%;
+    background-color: #ffff;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+}
+.encounter-image-div{
+    display: flex;
+    gap: 8rem;
+}
+.lms-div{
+    animation: move infinite linear;
+}
+.lms-div:hover{
+    cursor: pointer;
+    transform: translatey(-5px);
+    
+}
+.account-div:hover{
+    cursor: pointer;
+    transform: translatey(-5px);
+}
+.uploadimage-div{
+    text-align: center;
+   
+}
+.image-button{
+    padding: 7px;
+    background-color: #ffff;
+    color: rgb(51,48,139);
+    border: 1px solid rgb(51,48,139);
+    border-radius: 5px;
+    transition: 1s;
+}
+.image-button:hover{
+    cursor: pointer;
+   background-color: rgb(51,48,139);
+    color: #ffff;
+    border: 1px solid rgb(51,48,139);
+    border-radius: 5px;
+}
+.ticket-raise-button{
+    width: 9rem;
+    padding: 9px;
+    background-color: rgb(52,152,219);
+    color: #ffff;
+    border: 1px solid rgb(51,48,139);
+    border-radius: 5px;
+    transition: 1s;
+    
+}
+.ticket-raise-button:hover{
+    cursor: pointer;
+    background-color: #ffff;
+    color: rgb(51,48,139);
+}
+@keyframes move{
+    100%{
+        transform: translatey(-5px);
+    }
+} 

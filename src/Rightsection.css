@@ -1,0 +1,17 @@
+.rightSectiondiv{
+    /* background-color: yellow; */
+   
+    width: 85%;
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abc{
+    width: 96%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+

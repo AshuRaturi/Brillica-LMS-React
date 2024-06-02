@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+
+.modalCard-Container{
+    width: 35%;
+    
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 4rem 2rem;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.3);
+    box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px #ffff ;
+    font-weight: 550;
+}
+.modalCard-Container>div:nth-child(even){
+    padding: .3rem;
+    background-color: rgb(51,48,139);
+    margin: 1rem 0;
+    color: #ffff;
+    text-transform: capitalize;
+}
+.modalCard-Container>div:nth-child(odd){
+    padding: .3rem;
+    background-color:#ffff;
+    text-transform: capitalize;
+}

@@ -1,0 +1,53 @@
+.Topside{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+
+.Topsidebtn{
+    width: 40%;
+    padding: 10px;
+    border-top-left-radius:50px ;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(51,48,139);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    border: 1px solid rgb(89,88,251);
+    transition: 0.5s;
+}
+.Topsidebtn:hover{
+    cursor: pointer;
+    background-color:rgb(26, 23, 113) ;
+}
+.Topsidebtn1{
+    width: 40%;
+    padding: 10px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius: 50px;
+    /* background-color: rgb(51,48,139); */
+    color: rgb(51,48,139);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    transition: 0.5s;
+    border: 1px solid rgb(89,88,251);
+    margin-right: 10%;
+}
+.Topsidebtn1:hover{
+    background-color: rgb(26, 23, 113);
+    color: white;
+    cursor: pointer;
+   
+}
+
+.ghj{
+    scale: 1;
+    /* transition: 0.5s; */
+    color: blue;
+}
+.ghj:hover{
+    color: green;
+}

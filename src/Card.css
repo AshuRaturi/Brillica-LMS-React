@@ -1,0 +1,40 @@
+.imgdiv{
+ height: 90px;
+ width: 100%;
+}
+
+.cardDiv{
+    width: 320px;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+    background: linear-gradient(to right, #fff 55%,rgb(237,241,252));
+    border-radius: 15px;
+    border-bottom: 8px solid rgb(1, 1, 120);
+    box-shadow: -5px 0px 5px grey;
+    
+}
+.cardDiv:hover{
+    background: linear-gradient(to right,rgb(237,241,252) 20%,#fff );
+    /* scale: 1.01;
+    transition: 0.4s; */
+}
+.pro-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.pro-content>p{
+ font-size: 17px;
+ text-align: center;
+ 
+}
+.trainer{
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+}
+.time{
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 3.5rem;
+}
