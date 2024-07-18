@@ -11,14 +11,17 @@ import TestModulebtns from './TestModulebtns';
 import EncounteringIssue from './EncounteringIssue';
 import LogoutModal from './LogoutModal';
 import { useState } from 'react';
+import ShowPaymentHistory from './ShowPaymentHistory';
+import UpcomingPayment from './UpcomingPayment';
 
 
 
-function Rightsection({Modalopen,hide}) {
+
+function Rightsection({Modalopen}) {
   const [show,setShow]=useState(true);
 
   function hide(){
-    setShow((prev)=>!prev)
+    setShow(false)
    }
 
 
@@ -33,14 +36,20 @@ function Rightsection({Modalopen,hide}) {
 
         <Route path='/' element={<Searchbar Modalopen={Modalopen}/>}> </Route>
         <Route path='/Testmodule' element={<TestModulebtns/>}>
-           <Route index element={<TestModule/>}></Route>
+            <Route index element={<TestModule/>}></Route>
             <Route path="alltest" element={<HtmlTest/>}></Route>
             <Route path="createtest" element={<CreateTest/>}></Route>  
             <Route path="result" element={<ResultTest/>}></Route>
         </Route>
-        <Route path='/PayMent' element={<Payment/>}></Route>
+        <Route path='/PayMent' element={<Payment/>}>
+        <Route index element={<ShowPaymentHistory/>}></Route>
+          <Route path="paymentHistory" element={<ShowPaymentHistory/>}></Route>
+          <Route path="upcomingPayment" element={<UpcomingPayment/>}></Route>
+        </Route>
+
         <Route path='/helpdesk' element={<EncounteringIssue/>}></Route>
         <Route path='/logout' element={<LogoutModal hide={hide}/>}></Route>
+        
         
     </Routes>
     

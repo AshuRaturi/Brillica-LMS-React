@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Header.css'
-import logo from './Brillica logo.jpg'
+import logo from './assets/Brillica logo.jpg'
 import Searchbar from './Searchbar';
 import Supportdesk from './Supportdesk';
 import LogoutModal from './LogoutModal';

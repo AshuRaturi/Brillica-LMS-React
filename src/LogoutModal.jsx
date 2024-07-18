@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const LogoutModal = ({hide}) => {
  
-    const[LogOutOn,setLogOutOn]=useState(false)
+  
 
   return (
     <>
@@ -14,10 +14,10 @@ const LogoutModal = ({hide}) => {
             <span><i class="fa-regular fa-circle-question fa-xl"></i></span>
             <p>Are you sure want to logout ?</p>
            <div className='logout-button-div'> <button className='logout-ok-button' >OK</button>
-          <button className='logout-cancel-button' onClick={()=>{hide,console.log("first")}}>Cancel</button></div>
+        <button className='logout-cancel-button' onClick={()=>{hide}}>Cancel</button></div>
         </div>
     
-    </div>
+    </div>3
     
     </>
   )

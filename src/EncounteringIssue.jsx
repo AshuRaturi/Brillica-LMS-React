@@ -1,7 +1,7 @@
 import React from 'react'
 import "./EncounteringIssue.css"
-import image1 from "./lms issue brillica.png"
-import image2 from "./account issue lms.png"
+import image1 from "./assets/lms issue brillica.png"
+import image2 from "./assets/account issue lms.png"
 
 const EncounteringIssue = () => {
   return (

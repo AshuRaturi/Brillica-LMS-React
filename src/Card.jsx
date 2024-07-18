@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Card.css"
-import IMG1 from "./Brillica logo.jpg"
+import IMG1 from "./assets/Brillica logo.jpg"
 import Modal from './Modal'
 import { useState } from 'react'
 

@@ -4,6 +4,7 @@ import Section from './Section';
 import Modal from './Modal';
 import { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import ShowPaymentHistory from './ShowPaymentHistory';
 
 
 

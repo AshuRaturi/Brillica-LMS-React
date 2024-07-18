@@ -1,0 +1,20 @@
+.atm_div{
+    height: 20rem;
+    width: 20rem;
+   text-align: center;
+   
+}
+.atm_main_div{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+Link{
+    text-decoration: none;
+}
+.atm_div>h3{
+   border-radius: 5px;
+   border-left: 1px solid grey;
+   border-right: 1px solid grey;
+}
